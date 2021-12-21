@@ -1,0 +1,60 @@
+ /* limpar formataçoes padrao */
+ *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+    background: #4b004b;
+    color: white;
+}
+/* layout */
+#area-cabecalho{
+    background-color:#ff00f2;
+    padding: 15px;
+    text-align: center;
+}
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: rgb(116, 2, 151);
+}
+.conteudo-lateral{
+    background:rgb(116, 2, 151);
+    padding: 10px;
+    margin-bottom: 20px;
+    color:rgb(255, 255, 255);
+}
+#area-cabecalho a:hover{
+    color: #000000;
+    background: rgb(255, 0, 0);
+    text-decoration: none;
+}
+/* formataçoes em geral */
+h1{
+color: #000000;
+font-size: 2.5em;
+}
+h2{
+    color: #00b7ff;
+}
+h3{
+    color: rgb(0, 164, 175);
+}
+.verde{
+    color: rgb(0, 235, 252);
+}
+a:link, a:visited{
+    color: #00ffea;
+}
+#rodape{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background:darkgray;
+    color:red;
+}
+.data-postagem{
+    color: #fff;;
+}
